@@ -10,7 +10,8 @@
   inputs.src-treesitter_c-v0_1_1.flake = false;
   inputs.src-treesitter_c-v0_1_1.ref   = "refs/tags/v0.1.1";
   inputs.src-treesitter_c-v0_1_1.owner = "genotrance";
-  inputs.src-treesitter_c-v0_1_1.repo  = "nimtreesitter?subdir=treesitter_c";
+  inputs.src-treesitter_c-v0_1_1.repo  = "nimtreesitter";  inputs.src-treesitter_c-v0_1_1.dir  = "treesitter_c/";
+
   inputs.src-treesitter_c-v0_1_1.type  = "github";
   
   inputs."nimgen".owner = "nim-nix-pkgs";
